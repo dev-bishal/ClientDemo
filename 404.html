@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Wayback Machine Replica | Home </title>
+    <meta name="description" content="">
+    <meta property="og:image" content="">
+</head>
+
+<body class="font-sans">
+
+    <!-- Header -->
+    <header class="fixed w-full z-20 bg-[#101010] text-white border-b border-gray-400 flex justify-center items-center">
+        <div class="wrapper w-full md:w-[740px] lg:w-[1170px] px-2 lg:px-0 py-8 lg:py-4 flex justify-between">
+            <div class="nav-left flex items-center">
+                <a href="" class="logo">
+                    <img src="assets/images/logo.png" class="h-40 w-40 absolute border rounded-full object-none" alt="">
+                </a>
+            </div>
+
+            <div class="nav-right flex items-center">
+                <div class="menuButton z-[5] absolute right-10">
+                    <i class="block lg:hidden fa-solid fa-bars cursor-pointer text-2xl border border-gray-500 rounded-md px-3 py-[2px] "></i>
+                </div>
+                <nav class="hidden lg:flex gap-4 ">
+                    <ul class="flex gap-10">
+                        <li><a href="javascript:void(0)">Home</a></li>
+                        <li><a href="javascript:void(0)">Blogs</a></li>
+                        <li><a href="javascript:void(0)">Legal</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="mobileNav  bg-[#101010] absolute top-14 left-0 w-full z-10 shadow-lg shadow-gray-900 gap-4 border-t border-gray-800 lg:hidden flex invisible h-0">
+                    <ul class="flex flex-col items-center w-full">
+                        <li class="w-full"><a class="block px-1 py-3 text-center hover:bg-slate-900 border-b border-gray-800 w-full" href="javascript:void(0)">Home</a></li>
+                        <li class="w-full"><a class="block px-1 py-3 text-center hover:bg-slate-900 border-b border-gray-800 w-full" href="javascript:void(0)">Blogs</a></li>
+                        <li class="w-full"><a class="block px-1 py-3 text-center hover:bg-slate-900 " href="javascript:void(0)">Legal</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero with Slider -->
+    <section class="hero flex justify-center items-center h-[55vh] pt-8 ">
+        <swiper-container class="mySwiper" navigation="true" pagination="true" pagination-clickable="true" loop="true">
+            <swiper-slide>
+                <div
+                    class="hero-slider w-full h-full flex justify-center items-end py-16 px-20 lg:px-64 bg-center bg-cover bg-[url('assets/images/heroImg1.jpg')]">
+                    <p class="text-3xl text-white" style="text-shadow: 0 1px 2px rgba(0,0,0,.6);">Our tools increase the
+                        accessibility AND engagement of learning.</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div
+                    class="hero-slider w-full h-full flex justify-center items-end py-16  px-20 lg:px-64 bg-center bg-cover bg-[url('assets/images/heroImg2.jpg')]">
+                    <p class="text-3xl text-white" style="text-shadow: 0 1px 2px rgba(0,0,0,.6);">Learning doesn't
+                        happen alone.</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div
+                    class="hero-slider w-full h-full flex justify-center items-end py-16  px-20 lg:px-64 bg-center bg-cover bg-[url('assets/images/heroImg3.jpg')]">
+                    <p class="text-3xl text-white" style="text-shadow: 0 1px 2px rgba(0,0,0,.6);">Successful education
+                        encompasses a variety of learning activities. </p>
+                </div>
+            </swiper-slide>
+        </swiper-container>
+    </section>
+
+    <!-- Content Section -->
+    <section class="flex justify-center items-center">
+        <div class="wrapper md:w-[740px] lg:w-[1170px] px-2 lg:px-0 py-2 flex justify-between">
+            <div class="content flex flex-col w-full">
+                <h2 class="text-4xl pb-2 pt-4 w-full border-b border-gray-200">Some Interesting Page Title here</h2>
+                <div class="3cols flex flex-wrap justify-center lg:justify-between gap-1 py-4 w-full">
+                    <div class="cards w-full md:w-[49%] lg:w-[32%] flex flex-wrap border border-[#ddd] rounded-lg">
+                        <div class="top bg-[#f5f5f5] border-b border-[#ddd] w-full p-4 rounded-t-lg flex items-center gap-2">
+                            <img src="assets/images/icon (1).png" class="icon rounded-full h-10 w-10">
+                            <span class="title">Lorem</span>
+                        </div>
+                        <div class="bottom p-4 text-sm">
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, neque.</p>
+                            <a href="" target="_blank" class="active:bg-gradient-to-b from-gray-200 to-gray-300 p-2 block w-fit rounded-md border hover:bg-[#e6e6e6] border-[#adadad]">Clickable Link</a>
+                        </div>
+                    </div>
+                    <div class="cards w-full md:w-[49%] lg:w-[32%] flex flex-wrap border border-gray-200 rounded-lg">
+                        <div class="top bg-[#f5f5f5] border-b border-[#ddd] w-full p-3 rounded-t-lg flex items-center gap-2">
+                            <img src="assets/images/icon (2).png" class="icon rounded-full h-10 w-10">
+                            <span class="title">Lorem</span>
+                        </div>
+                        <div class="bottom p-4 text-sm">
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, neque.</p>
+                            <a href="" target="_blank" class="active:bg-gradient-to-b from-gray-200 to-gray-300 p-2 block w-fit rounded-md border hover:bg-[#e6e6e6] border-[#adadad]">Clickable Link</a>
+                        </div>
+                    </div>
+                    <div class="cards w-full md:w-[49%] lg:w-[32%] flex flex-wrap border border-gray-200 rounded-lg">
+                        <div class="top bg-[#f5f5f5] border-b border-[#ddd] w-full p-3 rounded-t-lg flex items-center gap-2">
+                            <img src="assets/images/icon (3).png" class="icon rounded-full h-10 w-10">
+                            <span class="title">Lorem</span>
+                        </div>
+                        <div class="bottom p-4 text-sm">
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, neque.</p>
+                            <a href="" target="_blank" class="active:bg-gradient-to-b from-gray-200 to-gray-300 p-2 block w-fit rounded-md border hover:bg-[#e6e6e6] border-[#adadad]">Clickable Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section 2 -->
+    <section class="flex justify-center items-center">
+        <div class="wrapper md:w-[740px] lg:w-[1170px] px-2 lg:px-0 py-2 flex justify-between border-b border-gray-200">
+            <div class="content flex flex-col w-full">
+                <h2 class="text-4xl pb-2 pt-4 w-full border-b border-gray-200">Some Interesting Page Title 2 here</h2>
+                <div class="2cols w-full flex-wrap justify-between flex gap-2 py-4 text-sm">
+                    <div class="part lg:w-[48%] leading-5">
+                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur.</p>
+                        <ul class="list-disc pl-8 mb-3">
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero reiciendis repellendus unde maxime?</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero reiciendis repellendus unde maxime?</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero reiciendis repellendus unde maxime?</li>
+                        </ul>
+                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat perferendis quis soluta fuga atque eaque odit praesentium? Dicta consectetur recusandae velit quibusdam culpa.</p>
+                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat perferendis quis soluta fuga atque eaque odit praesentium? Dicta consectetur recusandae velit quibusdam culpa.</p>
+                    </div>
+                    <div class="part lg:w-[48%]">
+                        <img src="assets/images/content2.png" class="w-full h-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bottom Footer Section 2 -->
+    <section class="flex justify-center items-center">
+        <div class="wrapper md:w-[740px] px-2 lg:px-0 lg:w-[1170px] py-4 flex justify-between">
+            <div class="content flex flex-col w-full">
+                <div class="top bg-[#f5f5f5] border border-[#ddd] w-full p-4 rounded-lg flex flex-col lg:flex-row justify-between items-center gap-2">
+                    <span class="title w-full lg:w-[64%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit vel assumenda cum dignissimos sit!</span>
+                    <a href="" target="_blank" class="active:bg-gradient-to-b text-center from-gray-200 to-gray-300 p-2 block w-full lg:w-[32%] rounded-md border hover:bg-[#e6e6e6] border-[#adadad]">Clickable Link</a>
+                </div>
+    
+                <footer class="my-12">
+                    <p>Copyright $&copy; A Famous Company <script>document.write(new Date().getFullYear());</script> (hello@Famous.com)</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <span class="hidden -translate-y-full"></span>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>
