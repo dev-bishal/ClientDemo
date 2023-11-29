@@ -4,7 +4,7 @@
 
 
 @layer components {
-    .socialBrands.active{
-        @apply bg-gradient-to-r from-yellow-500 to-orange-600 text-white
+    .mobileNav.active{
+        @apply h-fit visible 
     }
   }
